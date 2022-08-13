@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+h1 {
+  font-family: 'Playfair Display SC';
+  text-align: center;
+  font-size: 64px;
+}
+img {
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
+}
+.App {
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* typography */
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
+
+/* Column Size for thead */
+th:nth-child(1), th:nth-child(2), th:nth-child(3), th:nth-child(6), td:nth-child(1), td:nth-child(1),td:nth-child(2), td:nth-child(3), td:nth-child(6) {
+  width: 10%;
+}
+
+th:nth-child(4), th:nth-child(5), td:nth-child(4), td:nth-child(5) {
+  width: 30%;
+} 
+
+/* Column size for tbody */
